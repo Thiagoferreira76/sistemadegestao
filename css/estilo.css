@@ -1,0 +1,111 @@
+.heder{
+    margin: 0%;
+    padding: 0.1%;
+    display: flex;
+    justify-content: space-between;
+    background:#0080FF;
+}
+.linkk{
+    font-size: 165%;
+    font-weight: bold;
+    color:#FBF8EF;
+    font-family: Arial;
+    font-style: normal;
+    flex-grow: 1;
+    padding-top: 1.9%;
+    padding-left: 9%;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.link{
+    color: #FBF8EF;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 33%;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.link:hover{
+    background: rgb(27, 92, 129);
+    color:#FBF8EF;
+}
+.link2{
+    color: #FBF8EF;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 33%;
+    text-decoration: none;
+    margin-right: 8%;
+    transition: all 0.3s ease 0s;
+}
+.link2:hover{
+    background: rgb(27, 92, 129);
+    color:#FBF8EF;
+}
+nav{
+    padding-bottom: 2%;
+}
+
+/*-----footer------*/
+
+.rodape{
+    box-sizing: border-box;
+}
+#linhaA{
+    background: orangered;
+    color:orangered;
+    height: 1px;
+}
+.antro{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+    list-style: none;
+    background: rgb(15, 66, 235);
+}
+.antro p{
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.antro li{
+    display: inline-block;
+    
+}
+.antro li a{
+
+    padding: 20px;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    padding: 0px 20px;
+    background: #444;
+    color: cornsilk;
+    margin: 0 3px;
+    border-radius:50px ;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease 0s;
+    font-size: 23px;
+}
+.antro li a:hover{
+    background: chocolate;
+}
+.antro i{
+    transition: 0.5s all;
+}
+.antro li a:hover > i{
+    transform: scale(1.4)rotate(26deg);
+}
+.antro a{
+    padding-right: 30px;
+    padding-left: 340px;
+    cursor: pointer;
+}
+.antro a:hover > i{
+    transform: scale(1.4)rotate(26deg);
+}

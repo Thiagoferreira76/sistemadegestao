@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+
+}
+.heder{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    background:#0080FF;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+nav{
+    padding-bottom: 2%;
+}
+.linkar{
+    padding: 9px 33px;
+    background: #0080FF;
+    color: blanchedalmond;
+    border: none;
+    border-radius: 50px;
+    font-weight: 900;
+}
+.linkar:hover{
+    background: #0080ffa4;
+    color: black;
+    font-weight: 900;
+}
+.linkk{
+    font-size: 165%;
+    font-weight: bold;
+    color:#FBF8EF;
+    font-family: Arial;
+    font-style: normal;
+    flex-grow: 1;
+    padding-top: 1.5% ;
+    padding-left: 8%;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.link{
+    color: #FBF8EF;
+    padding: 1%;
+    margin: 1%;
+    margin-right: 8%;
+    border-radius: 33%;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    align-items: center;
+}
+.link:hover{
+    background: rgb(27, 92, 129);
+    color:#FBF8EF;
+}
+  h1{
+    font-weight: bold; 
+    border-radius: 20%;
+    margin-bottom: 30px;
+  }
+  #linha-vertical {
+   
+    border-right: 1px solid rgb(184, 183, 183);
+    align-items:left;
+}
+#paragrafo{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+hr{
+    color: coral;
+    background: coral;
+}
+.card{
+    box-shadow: 3px 3px 10px #444;
+}
+
+/*codigo para evitar outros usuarios acessarema sua conta
+<?php
+ob_start();//armazena meus dados em cache
+ session_start();//inicia a sessão
+ if(isset($_SESSION['loginUser']) && (isset($_SESSION['senhaUser']))){
+header('Location: inicio/home.php');
+ //}
+?>
+*/
